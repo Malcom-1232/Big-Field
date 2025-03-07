@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color:rgb(227, 244, 244);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 30px;
+    margin: 15px;
+}
+div#general{
+    background-color:rgb(227, 234, 240);
+    width: 1502px;
+    height: 600px;
+}
+
+
+h1{
+    display: grid;
+    font-size: 80px;
+    color: rgba(21, 11, 11, 0.799);
+    font-style: oblique;
+    padding: 15px 30px;
+}
+
+h2{
+    font-style: normal;
+    font-size: 18px;
+}
+
+h3{
+    font-style: inherit;
+    font-size: 25px;
+}
+
+aside{
+    padding: 30px 50px;
+    float: left;
+    width: 500px;
+    height: 150px;
+}
+
+aside p{
+    font-size: 18px;
+    font-style: oblique;
+    text-indent: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 15, 68);
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 50px;
+}
+nav a:hover{
+    color:ghostwhite
+}
+section{
+    padding: 30px 80px;
+    display: flex;
+    float: right;
+}
+section a{
+    display: flex;
+    width: 180px;
+    height: 530px;
+}
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+footer{
+    display: flex;
+    font-weight: 300px;
+    font-size:larger;
+    font-style: oblique;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color:rgb(227, 244, 244);
+}
+
+
