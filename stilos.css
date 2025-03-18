@@ -15,9 +15,17 @@ header{
     margin: 15px;
 }
 div#general{
-    background-color:rgb(227, 234, 240);
+    background-color: white;
     width: 1502px;
     height: 600px;
+}
+div#general img{
+    display: flex;
+    float: right;
+    font-size: 80px;
+    height: 500px;
+    margin: 15px;
+
 }
 
 
@@ -31,12 +39,12 @@ h1{
 
 h2{
     font-style: normal;
-    font-size: 18px;
+    font-size: 50px;
 }
 
 h3{
     font-style: inherit;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 aside{
@@ -88,6 +96,27 @@ section img:hover{
     filter: contrast(120%);
 
 }
+
+.galeria{
+    display: flex;
+    float: right;
+}
+.galeria img{
+   display: grid;
+   width: 800px;
+   height: 500px;
+   padding: 30px 10px;
+}
+
+
+
+form{
+    display: grid;
+    width: 800px;
+   height: 500px;
+   padding: 30px 10px;
+}
+
 footer{
     display: flex;
     font-weight: 300px;
